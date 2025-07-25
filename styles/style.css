@@ -106,7 +106,9 @@
     display: flex;
     margin-top: 120px;
     max-width: 1140px;
-    margin: 120px auto;
+    margin: 0 auto;
+    margin-top: 210px;
+    margin-bottom: 120px;
     gap: 60px;
     }
     .flower-header{
@@ -131,7 +133,8 @@
     .img{
         position: relative;
     }
-    /* latest-deals-section */
+
+/* latest-deals-section */
 .latest-deals-container {
   display: flex;
   gap: 28px;
@@ -243,14 +246,11 @@
   margin-top: 10px;
 }
 
-/* Latest Deals */
+/* Join  Our Section */
 .join-section {
   margin-top: 120px;
 
 }
-
-
-
 .join-the-color-container {
   background-image: url("../assets/news-letter-bg.png");
   background-repeat: no-repeat;
@@ -337,7 +337,7 @@
 
 
 
-  /*responsive for mobile*/
+/*responsive for mobile*/
   @media screen and (max-width:576px) {
     .home, .shop, .about-us{
         display: none;
@@ -406,7 +406,7 @@
     }
 
 
-    /* Latest Deals section */
+/* Latest Deals section */
 
   .latest-deals-container {
     flex-direction: column;
@@ -443,7 +443,8 @@
 
   .Latest-Deals-left {
     margin: 0 auto;
-  }/* join the colorful section */
+  }
+  /* join the colorful section */
   .join-section {
     margin-top: 44px;
   }
@@ -480,13 +481,4 @@
     padding: 30px;
     gap: 30px;
   }
-
-
-
-
-
-
-
-
-
   }
