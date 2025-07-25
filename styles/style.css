@@ -1,9 +1,8 @@
 
 *{margin: 0px;}
-*{max-width: 1140px;
-  margin: 0px auto;}
+
 .font-noto {
-  font-family: "Noto Sans", sans-serif;}
+  font-family: "Noto Serif", serif;}
 
 .font-inter {
   font-family: "Inter", sans-serif;}  
@@ -30,6 +29,8 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 30px;
+    max-width: 1140px;
+    margin: 0 auto;
   }
   .home{
     font-weight: bold;
@@ -37,11 +38,54 @@
   .cart{
     font-weight: normal;
   }
+  /*Banner section*/
+  .banner{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: self-end;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 120px;
+    
+  }
+  .banner-title{
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 13px;
+  }
+  .banner-des{
+    font-size: 22px;
+
+  }
   /*responsive for mobile*/
   @media screen and (max-width:576px) {
     .home, .shop, .about-us{
         display: none;
     }
+    .navbar{
+        margin-top: 30px;
+        margin-right: 13px;
+        margin-left: 13px;
+    }
     .logo{ width: 63px;}
+    .banner{
+        flex-direction: column-reverse;
+        margin-top: 30px;
+    }
+    .banner-img{
+        position: center;
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+    .text{
     
+    margin-top: 28px;
+    margin-left: 16px;
+    margin-right: 16px;
+    }
+    .banner-title{font-size: 32px;}
+    .banner-des{font-size: 14px;}
   }
+ 
