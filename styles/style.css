@@ -250,6 +250,93 @@
 }
 
 
+
+.join-the-color-container {
+  background-image: url(/assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 533px;
+
+}
+
+.join-input-btn {
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+}
+
+.join-input-btn h1 {
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.input-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 23px;
+}
+
+.input-btn input {
+  padding: 20px 400px 20px 20px;
+  border: none;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #00000000;
+  width: 300px;
+}
+
+.input-btn button {
+  padding: 20px 50px;
+  border: none;
+  background-color: #E95A08;
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* footer section */
+.footer-container {
+  display: flex;
+  align-items: start;
+
+  margin: 50px auto;
+  gap: 110px;
+   justify-content: space-around; 
+}
+
+.footer-column-logo {
+  width: 359px;
+}
+
+.footer-column-logo img {
+  margin-bottom: 16px;
+}
+
+.footer-column-logo p {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  color: #00000080;
+}
+
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.footer-icon {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+
+
   /*responsive for mobile*/
   @media screen and (max-width:576px) {
     .home, .shop, .about-us{
@@ -356,8 +443,43 @@
 
   .Latest-Deals-left {
     margin: 0 auto;
+  }/* join the colorful section */
+  .join-section {
+    margin-top: 44px;
   }
 
+  .join-the-color-container {
+    background-size: cover;
+    height: 275px;
+
+  }
+
+  .join-input-btn {
+    padding-top: 100px;
+    width: 218px;
+    margin: 0 auto;
+  }
+
+  .input-btn input {
+    padding: 5px 5px 5px 5px;
+  }
+
+  .input-btn button {
+    padding: 10px 10px 15px 10px;
+  }
+
+  .join-input-btn h1 {
+    font-family: Noto Serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  /* footer section */
+  .footer-container {
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+  }
 
 
 
