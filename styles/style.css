@@ -159,7 +159,7 @@
 }
 
 .images-1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/deal-bloom.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/deal-bloom.png");
   background-repeat: no-repeat;
   height: 199px;
   width: 367px;
@@ -188,7 +188,7 @@
 }
 
 .images-2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/deal-ana.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/deal-ana.png");
   background-repeat: no-repeat;
   height: 199px;
   width: 367px;
@@ -217,7 +217,7 @@
 
 
 .Latest-Deals-right {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/deal-zabo.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/deal-zabo.png");
   background-repeat: no-repeat;
   height: 423px;
   width: 753px;
@@ -252,7 +252,7 @@
 
 
 .join-the-color-container {
-  background-image: url(/assets/news-letter-bg.png);
+  background-image: url("../assets/news-letter-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 533px;
