@@ -161,8 +161,8 @@
 .images-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/deal-bloom.png);
   background-repeat: no-repeat;
-  height: 206px;
-  width: 366px;
+  height: 199px;
+  width: 367px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -190,8 +190,8 @@
 .images-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/deal-ana.png);
   background-repeat: no-repeat;
-  height: 206px;
-  width: 366px;
+  height: 199px;
+  width: 367px;
   display: flex;
   justify-content: center;
   align-items: center;
